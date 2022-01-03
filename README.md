@@ -11,3 +11,4 @@
 - [ ] Decorators
 - [ ] Validation
 - [ ] DTO / class structures
+- [ ] Module

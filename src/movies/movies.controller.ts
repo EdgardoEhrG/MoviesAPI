@@ -6,7 +6,7 @@ import {
   Param,
   Patch,
   Post,
-  Query,
+  // Query,
 } from '@nestjs/common';
 import { CreateMovieDTO } from './dto/create-movie-dto';
 import { UpdateMovieDTO } from './dto/update-movie.dto';
@@ -22,10 +22,9 @@ export class MoviesController {
     return this.movieService.getAll();
   }
 
-  @Get('search')
-  search(@Query('year') searchingYear: string) {
-    //
-  }
+  // @Get('search')
+  // search(@Query('year') searchingYear: string) {
+  // }
 
   @Get('/:id')
   getMovieById(@Param('id') movieId: number): Movie {
