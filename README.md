@@ -12,3 +12,4 @@
 - [ ] Validation
 - [ ] DTO / class structures
 - [ ] Module
+- [ ] Unit tests
